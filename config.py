@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7373007014:AAHK0rlGtDTtMaHNp1rf6FvsG3SipfJOnkA")
+TG_BOT_TOKEN = "6803628783:AAEwq_HQnXxhrfRPUwllg4TgX_XcDSu5RcY"
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29759992"))
@@ -19,12 +19,15 @@ APP_ID = int(os.environ.get("APP_ID", "29759992"))
 API_HASH = os.environ.get("API_HASH", "61f150cdca64b2916fa499d107393140")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002243453377"))
+
+#Your db channel Id
+CHANNEL_ID = int(-1002242894275)
+
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "345678987654"))
+OWNER_ID = 5964198959
 
-#Port
+
 PORT = os.environ.get("PORT", "8080")
 
 
@@ -40,14 +43,15 @@ SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "api.gplinks.com")
 SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "2f0915344d5a6d76508f717231896f7d1719e2df")
 
 
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 1)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 28800)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/howtoverify")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/+d_hwuio68p01YmU8")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002243453377"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002243453377"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002132090974"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
+
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -76,7 +80,8 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6852649461)
+ADMINS.append(5614632454)
+ADMINS.append(5964198959)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
