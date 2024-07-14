@@ -6,7 +6,7 @@ motor
 umongo
 dnspython
 marshmallow
-pyrofork
+git+https://github.com/vpcreatz/pyrofork-adv.git
 # --- For-Web-Response ------- #
 pytz
 requests
@@ -15,4 +15,3 @@ shortzy
 aiohttp
 aiofiles
 asyncio
-pyromod
