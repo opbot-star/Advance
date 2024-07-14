@@ -1,0 +1,17 @@
+# --- For-Bot-Working --------- #
+TgCrypto
+# --- For-Database ------------ #
+pymongo
+motor
+umongo
+dnspython
+marshmallow
+
+# --- For-Web-Response ------- #
+pytz
+requests
+bs4
+shortzy
+aiohttp
+aiofiles
+asyncio
