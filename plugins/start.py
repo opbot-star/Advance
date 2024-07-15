@@ -63,7 +63,7 @@ async def start_command(client: Client, message: Message):
             await update_verify_status(id, is_verified=True, verified_time=time.time())
             if verify_status["link"] == "":
                 reply_markup = None
-            await message.reply(f"Your token successfully verified and valid for: {int(VERIFY_EXPIRE)/3600} Hour", reply_markup=reply_markup, protect_content=False, quote=True)
+            await message.reply(f"<b>🔥Your token successfully verified and valid for: {VERIFY_EXPIRE}SECONDS</b>", reply_markup=reply_markup, protect_content=False, quote=True)
 
             if verify_status['rot'] == 1:
                 await updaterot(id,2)
