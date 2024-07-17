@@ -36,11 +36,11 @@ DB_NAME = "Cluster0"
 
 
 SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "publicearn.com")
-SHORTLINK_API1 = os.environ.get("SHORTLINK_API1", "c58f9b85f167278c0438a3c48e14f76424eedf6b")
+SHORTLINK_API1 = os.environ.get("SHORTLINK_API1", "6ebd0b1f4f9427d3e6074df5f56a3992ebb2978b")
 
 
-SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "api.gplinks.com")
-SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "2f0915344d5a6d76508f717231896f7d1719e2df")
+SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "")
+SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "")
 
 
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 28800)) # Add time in seconds
