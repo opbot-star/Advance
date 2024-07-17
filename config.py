@@ -25,14 +25,14 @@ CHANNEL_ID = int(-1002216951367"))
 
 
 #OWNER ID
-OWNER_ID = 5964198959
+OWNER_ID = 1200226417
 
 
 PORT = os.environ.get("PORT", "8080")
 
 
-DB_URI = ""
-DB_NAME = "databasestuff"
+DB_URI = "mongodb+srv://13455abcdh:5ZCsZx3Q1uHnc5Ni@cluster0.izc9igo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = "Cluster0"
 
 
 SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "publicearn.com")
@@ -49,7 +49,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/+d_hwuio68p01YmU8")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002132090974"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002237256492"))
 FORCE_SUB_CHANNEL2 = os.environ.get("FORCE_SUB_CHANNEL2", "")
 
 
@@ -62,7 +62,7 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>👋 Hello {first}\n\nI am file 
 #START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", " ").split()):
+    for x in (os.environ.get("ADMINS", "5614632454 1251111009").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -84,7 +84,7 @@ USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(5614632454)
-ADMINS.append(5964198959)
+ADMINS.append(1251111009)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
